@@ -1,34 +1,227 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Piano Kids – Do Ré Mi · Assistance</title>
+<title>Piano Kids – Do Ré Mi — Assistance / Support</title>
+<meta name="description" content="Aide pour Piano Kids – Do Ré Mi. / Help for Piano Kids – Do Ré Mi.">
 <style>
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;max-width:720px;margin:0 auto;padding:24px 16px;line-height:1.6;color:#1d1d1f;background:#fff}
-h1{font-size:1.6em}h2{font-size:1.2em;margin-top:1.6em}a{color:#0066cc}hr{margin:40px 0;border:0;border-top:1px solid #ddd}
+  :root {
+    --bg: #ffffff;
+    --fg: #1a1a2e;
+    --dim: #5a5a72;
+    --accent: #6d4bc7;
+    --rule: #e6e3f0;
+    --lead: #f1edfb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#16121f; --fg:#f2f0f7; --dim:#a9a3bd; --accent:#b9a2ff; --rule:#2e2740; --lead:#241d35; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding: 40px 16px 80px;
+  }
+  main { max-width: 680px; margin: 0 auto; }
+  h1 { font-size: 1.7rem; margin: 0 0 4px; letter-spacing: -0.02em; }
+  h2 { font-size: 1.1rem; margin: 36px 0 10px; color: var(--accent); }
+  .updated { color: var(--dim); font-size: 0.9rem; margin-bottom: 28px; }
+  .lead {
+    background: var(--lead);
+    border-left: 3px solid var(--accent);
+    padding: 14px 18px;
+    border-radius: 0 8px 8px 0;
+    font-weight: 600;
+  }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 44px 0 24px; }
+  nav { margin-bottom: 24px; font-size: 0.9rem; }
+  a { color: var(--accent); }
+  footer { color: var(--dim); font-size: 0.85rem; margin-top: 40px; }
+  .mail { font-weight: 700; word-break: break-all; }
 </style>
 </head>
 <body>
-<p><a href="index.html">← Piano Kids – Do Ré Mi</a></p>
-<h1>Assistance</h1>
-<p>Une question, un problème ou une idée ? Écrivez-nous : <a href="mailto:contact@topartparis.com">contact@topartparis.com</a>. Nous répondons sous 48 h.</p>
-<h2>Gérer ou résilier un abonnement</h2>
-<p>Sur iPhone ou iPad : Réglages → [votre nom] → Abonnements → Piano Kids. Vous pouvez résilier à tout moment, au moins 24 h avant le renouvellement.</p>
-<h2>Restaurer les achats</h2>
-<p>Dans l’app, espace parents → « Restaurer les achats ».</p>
-<h2>Remboursement</h2>
-<p>Les remboursements sont gérés par Apple : <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a></p>
-<p><a href="privacy-policy.html">Politique de confidentialité</a></p>
-<hr>
-<h1 lang="en">Support</h1>
-<p>Questions, problems or ideas? Email us: <a href="mailto:contact@topartparis.com">contact@topartparis.com</a>. We reply within 48 hours.</p>
-<h2>Manage or cancel a subscription</h2>
-<p>On iPhone or iPad: Settings → [your name] → Subscriptions → Piano Kids. You can cancel any time, at least 24 hours before renewal.</p>
-<h2>Restore purchases</h2>
-<p>In the app, parents’ area → “Restore purchases”.</p>
-<h2>Refunds</h2>
-<p>Refunds are handled by Apple: <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a></p>
-<p><a href="privacy-policy.html">Privacy Policy</a></p>
+<main>
+  <nav><a href="#fr">Français</a> · <a href="#en">English</a> · <a href="#sr">Srpski</a> · <a href="privacy-policy.html">Confidentialité / Privacy</a></nav>
+
+  <!-- ===================================================== FRANÇAIS -->
+  <section id="fr" lang="fr">
+  <h1>Assistance</h1>
+  <div class="updated">Piano Kids – Do Ré Mi · pour les enfants de 6 à 8 ans</div>
+
+  <!-- FAQ:fr:start -->
+  <p class="lead">Une question ou un problème ? Écrivez-nous : <span class="mail">info@topartparis.com</span></p>
+  <p>Indiquez si possible le modèle d’iPhone ou d’iPad, la version d’iOS et la version de l’application (visible en bas de l’Espace parents).</p>
+
+  <h2 id="fr-parents">Ouvrir l’Espace parents</h2>
+  <p>Sur l’écran d’accueil, touchez le petit cadenas en haut à droite (à gauche de l’oreille). Une multiplication s’affiche (un nombre à deux chiffres × un chiffre, par exemple 23 × 7). Tapez le résultat sur le pavé numérique, puis touchez ✓. Après une erreur, le calcul change ; après 3 erreurs, il faut attendre 30 secondes. Chaque nouvelle entrée dans l’Espace parents demande un nouveau calcul.</p>
+
+  <h2 id="fr-sound">Pas de son</h2>
+  <ul>
+    <li>Montez le volume de l’appareil. Si un haut-parleur barré apparaît sur l’écran d’accueil, le son de l’application est coupé : touchez-le, résolvez le calcul, puis activez « Son » dans les réglages.</li>
+    <li>Espace parents → « Vérifier le son » → « Tester le son ». Si rien ne se passe, touchez « Redémarrer le son ».</li>
+    <li>Avec un casque Bluetooth, le son peut arriver en retard : pour jouer en rythme, préférez le haut-parleur ou un casque filaire.</li>
+  </ul>
+
+  <h2 id="fr-voice">La voix du narrateur</h2>
+  <p>Le narrateur utilise la voix intégrée à l’appareil. Pour la couper : Espace parents → Réglages → « Voix du narrateur ». Pour choisir une autre voix : Espace parents → « Voix ». Raccourci : sur l’écran d’accueil, gardez le doigt 5 secondes sur l’oreille — le choix de la voix s’ouvre (un toucher court répète seulement la consigne). Pour une voix plus naturelle, téléchargez une voix « améliorée » dans Réglages iOS → Accessibilité → Contenu énoncé → Voix.</p>
+
+  <h2 id="fr-locked">Une chanson est verrouillée</h2>
+  <p>Les chansons s’ouvrent au fil des leçons : le cadenas indique la leçon après laquelle la chanson s’ouvre. Pour tout ouvrir d’un coup : Espace parents → « Tout débloquer ». Un cadenas sans numéro (« Demande à un adulte ») signifie que ce contenu fait partie de l’abonnement (« L’essentiel » ou « Tout le piano »).</p>
+
+  <h2 id="fr-language">Changer la langue</h2>
+  <p>Au premier lancement, l’application demande la langue (français, anglais ou serbe ; par défaut celle de l’appareil). Pour la changer ensuite : Espace parents → « Langue », tout en haut.</p>
+
+  <h2 id="fr-keys">Touches trop petites ou trop grandes</h2>
+  <p>Utilisez les boutons − et + en haut de l’écran (ou Espace parents → « Taille des touches »).</p>
+
+  <h2 id="fr-restart">Recommencer depuis le début</h2>
+  <p>Espace parents → « Effacer les progrès ». Les réglages sont conservés.</p>
+
+  <h2 id="fr-offline">Internet, compte, achats</h2>
+  <p>Aucun besoin d’internet ni de compte pour jouer (seul l’abonnement passe par l’App Store d’Apple, qui demande une connexion). Sans publicité, et l’application ne collecte aucune donnée. Voir la <a href="privacy-policy.html#fr">politique de confidentialité</a>.</p>
+
+  <h2 id="fr-subscription">Abonnement : « L’essentiel » ou « Tout le piano »</h2>
+  <p>Gratuit pour toujours : leçons 1 à 9, le ciel, La maison des notes (chapitres 1 et 2), 4 chansons, jeu niveaux 1 à 3, doigts main droite, duo 1 à 3, Ma mélodie niveau 1.</p>
+  <ul>
+    <li><strong>L’essentiel</strong> (27,99 €/an ou 2,99 €/mois) : tout le parcours, les 17 chansons, le jeu et les doigts (sans le duo niveaux 4 à 10 ni Ma mélodie niveaux 2 et 3) ; La maison des notes : chapitres 1 et 2 (gratuits).</li>
+    <li><strong>Tout le piano</strong> (34,99 €/an ou 4,99 €/mois) : tout L’essentiel, plus le duo complet (niveaux 4 à 10) et Ma mélodie niveaux 2 et 3, et La maison des notes en entier (Long et court, petite scène).</li>
+  </ul>
+  <p>De nouvelles chansons et leçons sont ajoutées régulièrement.</p>
+  <p>7 jours d’essai gratuit sur les formules annuelles (un essai par compte Apple). L’abonnement s’achète uniquement dans l’Espace parents → « Abonnement », jamais depuis l’écran de l’enfant, avec le compte Apple de l’appareil.</p>
+  <ul>
+    <li><strong>Changer de formule</strong> : Espace parents → Abonnement. Passer à « Tout le piano » est immédiat (Apple rembourse la part non utilisée) ; passer à « L’essentiel » prend effet au prochain renouvellement.</li>
+    <li><strong>Fin de l’abonnement</strong> : les étoiles et les progrès sont gardés, et le morceau en cours reste ouvert jusqu’à ce que l’enfant le termine.</li>
+    <li><strong>Résilier</strong> : Espace parents → Abonnement → « Gérer l’abonnement », ou Réglages de l’iPhone/iPad → votre nom → Abonnements. La résiliation prend effet à la fin de la période en cours.</li>
+    <li><strong>Nouvel appareil ou réinstallation</strong> : « Restaurer les achats » avec le même compte Apple. iOS peut demander le mot de passe du compte Apple : c’est une fenêtre d’Apple, à remplir ou fermer avant de rendre l’appareil à l’enfant.</li>
+    <li><strong>Remboursement</strong> : c’est Apple qui gère les paiements et les remboursements (reportaproblem.apple.com).</li>
+    <li><strong>Un abonnement par compte Apple</strong> : le partage familial n’est pas activé. Avec « Demander l’autorisation d’achat », la demande de l’enfant attend la validation du parent (« En attente de validation »).</li>
+  </ul>
+  <!-- FAQ:fr:end -->
+  </section>
+
+  <hr>
+
+  <!-- ===================================================== ENGLISH -->
+  <section id="en" lang="en">
+  <h1>Support</h1>
+  <div class="updated">Piano Kids – Do Ré Mi · for children aged 6 to 8</div>
+
+  <!-- FAQ:en:start -->
+  <p class="lead">A question or a problem? Write to us: <span class="mail">info@topartparis.com</span></p>
+  <p>If you can, include your iPhone or iPad model, the iOS version and the app version (shown at the bottom of the Parents area).</p>
+
+  <h2 id="en-parents">Opening the Parents area</h2>
+  <p>On the home screen, tap the small padlock in the top right corner (left of the ear). A multiplication appears (a two-digit number × a one-digit number, e.g. 23 × 7). Type the result on the number pad, then tap ✓. After a wrong answer the question changes; after 3 wrong answers you wait 30 seconds. Every new visit to the Parents area asks a new question.</p>
+
+  <h2 id="en-sound">No sound</h2>
+  <ul>
+    <li>Turn the device volume up. If a crossed-out speaker shows on the home screen, the app sound is off: tap it, solve the question, then turn on “Sound” in Settings.</li>
+    <li>Parents → “Sound check” → “Test sound”. If nothing happens, tap “Restart sound”.</li>
+    <li>Bluetooth headphones can add a delay: to play in time, use the speaker or wired headphones.</li>
+  </ul>
+
+  <h2 id="en-voice">The narrator voice</h2>
+  <p>The narrator uses the device’s built-in voice. To turn it off: Parents → Settings → “Narrator voice”. To pick another voice: Parents → “Voice”. Shortcut: on the home screen, keep your finger on the ear for 5 seconds — the voice picker opens (a short tap only repeats the instruction). For a more natural voice, download an “Enhanced” voice in iOS Settings → Accessibility → Spoken Content → Voices.</p>
+
+  <h2 id="en-locked">A song is locked</h2>
+  <p>Songs open as your child plays the lessons: the padlock shows the lesson after which the song opens. To open everything at once: Parents → “Unlock all”. A padlock with no number (“Ask a grown-up”) means the content is part of the subscription (“L’essentiel” or “Tout le piano”).</p>
+
+  <h2 id="en-language">Changing the language</h2>
+  <p>On first launch, the app asks for the language (French, English or Serbian; the device language is preselected). To change it later: Parents → “Language”, at the very top.</p>
+
+  <h2 id="en-keys">Keys too small or too big</h2>
+  <p>Use the − and + buttons at the top of the screen (or Parents → “Key size”).</p>
+
+  <h2 id="en-restart">Starting over</h2>
+  <p>Parents → “Erase progress”. Your settings are kept.</p>
+
+  <h2 id="en-offline">Internet, account, purchases</h2>
+  <p>No internet connection or account needed to play (only the subscription goes through Apple’s App Store, which needs a connection). No ads, and the app collects no data. See the <a href="privacy-policy.html#en">privacy policy</a>.</p>
+
+  <h2 id="en-subscription">Subscription: “L’essentiel” or “Tout le piano”</h2>
+  <p>Free forever: lessons 1 to 9, the sky, The Note House (chapters 1 and 2), 4 songs, game levels 1 to 3, right-hand fingers, duo 1 to 3, My melody level 1.</p>
+  <ul>
+    <li><strong>L’essentiel</strong> (€27.99/year or €2.99/month): the whole path, all 17 songs, the game and the fingers (not Duo levels 4 to 10 or My melody levels 2 and 3); The Note House: chapters 1 and 2 (free).</li>
+    <li><strong>Tout le piano</strong> (€34.99/year or €4.99/month): everything in L’essentiel, plus the full Duo (levels 4 to 10) and My melody levels 2 and 3, and the whole Note House (Long and short, little stage).</li>
+  </ul>
+  <p>New songs and lessons are added regularly.</p>
+  <p>7-day free trial on the annual plans (one trial per Apple Account). It can only be bought in Parents → “Subscription”, never from the child’s screen, with the device’s Apple Account.</p>
+  <ul>
+    <li><strong>Change plan</strong>: Parents → Subscription. Switching to “Tout le piano” is immediate (Apple refunds the unused part); switching to “L’essentiel” takes effect at the next renewal.</li>
+    <li><strong>When the subscription ends</strong>: stars and progress are kept, and the piece your child is learning stays open until it is finished.</li>
+    <li><strong>Cancel</strong>: Parents → Subscription → “Manage subscription”, or iPhone/iPad Settings → your name → Subscriptions. Cancellation takes effect at the end of the current period.</li>
+    <li><strong>New device or reinstall</strong>: “Restore purchases” with the same Apple Account. iOS may ask for the Apple Account password: this is an Apple window — fill it in or close it before handing the device back to your child.</li>
+    <li><strong>Refunds</strong>: Apple handles payments and refunds (reportaproblem.apple.com).</li>
+    <li><strong>One subscription per Apple Account</strong>: Family Sharing is not enabled. With Ask to Buy, the child’s request waits for the parent’s approval (“Waiting for approval”).</li>
+  </ul>
+  <!-- FAQ:en:end -->
+  </section>
+
+  <hr>
+
+  <!-- ===================================================== SRPSKI -->
+  <section id="sr" lang="sr-Latn">
+  <h1>Podrška</h1>
+  <div class="updated">Piano Kids – Do Ré Mi · za decu od 6 do 8 godina</div>
+
+  <!-- FAQ:sr:start -->
+  <p class="lead">Pitanje ili problem? Pišite nam: <span class="mail">info@topartparis.com</span></p>
+  <p>Ako možete, navedite model iPhone-a ili iPad-a, verziju iOS-a i verziju aplikacije (na dnu dela Za roditelje).</p>
+
+  <h2 id="sr-parents">Ulaz u deo Za roditelje</h2>
+  <p>Na početnom ekranu dodirnite mali katanac gore desno (levo od uha). Pojavi se množenje (dvocifren broj × jednocifren, npr. 23 × 7). Ukucajte rezultat na tastaturi sa brojevima i dodirnite ✓. Posle greške zadatak se menja; posle 3 greške čeka se 30 sekundi. Svaki novi ulaz u deo Za roditelje traži nov zadatak.</p>
+
+  <h2 id="sr-sound">Nema zvuka</h2>
+  <ul>
+    <li>Pojačajte zvuk uređaja. Ako se na početnom ekranu vidi precrtan zvučnik, zvuk aplikacije je isključen: dodirnite ga, rešite zadatak i uključite „Zvuk“ u podešavanjima.</li>
+    <li>Za roditelje → „Provera zvuka“ → „Testiraj zvuk“. Ako se ništa ne čuje, dodirnite „Ponovo pokreni zvuk“.</li>
+    <li>Bluetooth slušalice mogu da kasne: za sviranje u ritmu koristite zvučnik ili slušalice sa kablom.</li>
+  </ul>
+
+  <h2 id="sr-voice">Glas naratora</h2>
+  <p>Na srpskom narator za sada nema glas — tekst se prikazuje kao titl. Na francuskom i engleskom narator koristi glas uređaja: isključivanje — Za roditelje → Podešavanja → „Glas naratora“; drugi glas — Za roditelje → „Glas“. Prečica: na početnom ekranu držite prst na uhu 5 sekundi — otvara se izbor glasa (kratak dodir samo ponavlja uputstvo). Prirodniji glas: preuzmite „poboljšani“ glas u iOS Podešavanja → Pristupačnost → Izgovoreni sadržaj → Glasovi.</p>
+
+  <h2 id="sr-locked">Pesmica je zaključana</h2>
+  <p>Pesmice se otvaraju kako dete prelazi lekcije: na katancu piše posle koje lekcije se pesmica otvara. Da otvorite sve odjednom: Za roditelje → „Otključaj sve“. Katanac bez broja („Pitaj odraslog“) znači da je to deo pretplate („L’essentiel“ ili „Tout le piano“).</p>
+
+  <h2 id="sr-language">Promena jezika</h2>
+  <p>Pri prvom pokretanju aplikacija pita za jezik (francuski, engleski ili srpski; unapred je izabran jezik uređaja). Kasnije: Za roditelje → „Jezik“, sasvim gore.</p>
+
+  <h2 id="sr-keys">Dirke su premale ili prevelike</h2>
+  <p>Koristite dugmad − i + na vrhu ekrana (ili Za roditelje → „Širina dirki“).</p>
+
+  <h2 id="sr-restart">Ispočetka</h2>
+  <p>Za roditelje → „Obriši napredak“. Podešavanja ostaju.</p>
+
+  <h2 id="sr-offline">Internet, nalog, kupovina</h2>
+  <p>Za sviranje nisu potrebni ni internet ni nalog (samo pretplata ide preko Apple App Store-a, kome treba veza). Bez reklama, i aplikacija ne prikuplja nikakve podatke. Pogledajte <a href="privacy-policy.html#sr">politiku privatnosti</a>.</p>
+
+  <h2 id="sr-subscription">Pretplata: „L’essentiel“ ili „Tout le piano“</h2>
+  <p>Zauvek besplatno: lekcije 1 do 9, nebo, Kuća nota (poglavlja 1 i 2), 4 pesmice, igra nivoi 1 do 3, prsti desne ruke, duo 1 do 3, Moja melodija nivo 1.</p>
+  <ul>
+    <li><strong>L’essentiel</strong> (27,99 €/godišnje ili 2,99 €/mesečno): cela staza, svih 15 pesmica, igra i prsti (bez dua nivoi 4 do 10 i bez Moje melodije nivoi 2 i 3); Kuća nota: poglavlja 1 i 2 (besplatna).</li>
+    <li><strong>Tout le piano</strong> (34,99 €/godišnje ili 4,99 €/mesečno): sve iz L’essentiel, plus ceo duo (nivoi 4 do 10) i Moja melodija nivoi 2 i 3, i cela Kuća nota (Dugo i kratko, mala pozornica).</li>
+  </ul>
+  <p>Nove pesmice i lekcije se redovno dodaju.</p>
+  <p>7 dana besplatne probe na godišnjim paketima (jedna proba po Apple nalogu). Kupuje se samo u delu Za roditelje → „Pretplata“, nikad sa detetovog ekrana, preko Apple naloga na uređaju.</p>
+  <ul>
+    <li><strong>Promena paketa</strong>: Za roditelje → Pretplata. Prelazak na „Tout le piano“ važi odmah (Apple vraća neiskorišćeni deo); prelazak na „L’essentiel“ važi od sledeće obnove.</li>
+    <li><strong>Kad pretplata istekne</strong>: zvezde i napredak ostaju, a komad koji dete uči ostaje otvoren dok ga ne završi.</li>
+    <li><strong>Otkazivanje</strong>: Za roditelje → Pretplata → „Upravljaj pretplatom“, ili Podešavanja na iPhone-u/iPad-u → vaše ime → Pretplate. Otkazivanje važi od kraja tekućeg perioda.</li>
+    <li><strong>Novi uređaj ili ponovna instalacija</strong>: „Vrati kupovinu“ sa istim Apple nalogom. iOS može da zatraži lozinku Apple naloga: to je Apple-ov prozor — popunite ga ili zatvorite pre nego što uređaj vratite detetu.</li>
+    <li><strong>Povraćaj novca</strong>: plaćanja i povraćaj vodi Apple (reportaproblem.apple.com).</li>
+    <li><strong>Jedna pretplata po Apple nalogu</strong>: Family Sharing nije uključen. Uz „Pitaj za kupovinu“ (Ask to Buy) zahtev deteta čeka odobrenje roditelja („Čeka se odobrenje“).</li>
+  </ul>
+  <!-- FAQ:sr:end -->
+  </section>
+
+  <footer>Piano Kids – Do Ré Mi — © 2026 TopArtParis</footer>
+</main>
 </body>
 </html>
